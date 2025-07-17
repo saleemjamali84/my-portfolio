@@ -1,0 +1,173 @@
+td.txt {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+td.txt2 {
+    text-align: center;
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+}
+td.txt3 {
+    text-align: center;
+    background-color: orange;
+    color: white;
+    font-size: 14px;
+}
+
+
+    .flex-container2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      background: linear-gradient(to right, rgb(92, 90, 87), #031027);
+      margin-bottom: 20px;
+    }
+
+    .hero-ind2 {
+      max-width: 800px;
+      text-align: center;
+    }
+
+    .heading-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .heading-box h4 {
+      display: inline-block;
+      color: grey;
+      
+      padding: 8px 16px;
+      margin: 5px 0;
+      border-radius: 6px;
+    
+    }
+    .heading-box h3 {
+      display: inline-block;
+      background-color:dodgerblue;
+      padding: 8px 16px;
+      margin: 5px 0;
+      border-radius: 6px;
+    }
+.hero-ind2 p{
+    font-size: 16px;
+    text-align: center;
+    color:antiquewhite;
+    width: 100%;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+strong {
+      color: #00ffcc;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  color: antiquewhite;
+}
+
+.label2 {
+    color: antiquewhite;
+}
+
+
+
+#projects {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  width: 200px;
+  height: 320px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.project-card h3 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content:center;
+}
+
+.project-buttons .btn {
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.project-buttons .btn:hover {
+  background-color: #0056b3;
+}

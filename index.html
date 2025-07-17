@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Assignment</title>
+    <link rel="stylesheet" href="csssheet.css">
+    
+<style>
+   .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: dodgerblue;
+            padding: 1.2rem;
+            color: orange;
+        }
+
+    .txt{
+            font-size: 1.2rem;
+            color: black;
+            font-weight: 600;
+        }
+    .txt:hover{
+            color: #f90;
+        }
+
+    .nav-left{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+    .nav-links{
+            display: flex;
+            list-style-type: none;
+            gap: 1rem;
+            padding: 0;
+            margin: 0;
+            
+        }
+
+    .nav-links a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav-links a:hover{
+            color: white;
+            border-bottom: 3px solid #f90;
+            background-color: #f90;
+        }
+
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: #cca300; */
+  background: linear-gradient(to right, rgb(92, 90, 87), #031027);
+  margin-top: 20px;
+  margin-bottom: 20px;
+ 
+}
+
+.flex-container > div {
+  
+  width: 600px;
+  margin: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 30px;
+}
+
+        /* Hero Section Style */
+.hero-sec{
+    display:flex ;
+    gap: 1rem;
+    margin: 1rem 1rem;
+    
+}
+
+.hero-left{
+    display:flex ;
+    flex-direction: column;
+    gap: 0px; 
+        
+}
+
+.hero-btns{
+    margin-top: 1rem;
+}
+
+.hero-btns button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  color: #4CAF50;
+  transition: 0.3s ease;
+}
+
+.hero-btns button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       
+}
+.hero-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    
+}
+
+.hero-ind{
+    display:flex ;
+    flex-direction:row;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 20px;
+    
+}
+
+
+.hero-ind h4{
+  display:inline-block;
+  width:fit-content;
+  align-self: center;
+  /* margin-bottom: 0; */
+  padding: 0;
+  background-color:grey;
+  margin: 0 auto;
+}
+
+
+.hero-ind h3{
+  display:inline-block;
+  width:fit-content;
+  align-self: center;
+  padding: 0;
+  background-color:grey;
+  margin: 0 auto;
+}
+.hero-ind p{
+    font-size: 16px;
+    text-align: center;
+    color:antiquewhite;
+    width: 100%;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+    .contact-btn{
+            background-color: seagreen;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            border-radius: 5px;
+            border: 2px solid orange;
+            cursor: pointer;
+        }
+        .contact-btn a{
+            color: #f90;
+        }
+
+        .contact-btn:hover{
+            background-color: #333;
+            border: 2px solid#f90;
+            color: #f90;
+        }
+.section{
+    
+      text-align: center;
+      padding: 40px 20px;
+      border: 2px solid var(--border-color);
+      margin: 20px 0;
+      }
+
+.services{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem 0rem;
+            
+        }
+
+        .card{
+            background-color:#f90;
+            border: 2px solid #333;
+            padding: 2rem;
+            border-radius: 10px;
+            width: 120px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .card:hover{
+            background-color: #333;
+            border: 2px solid #f90;
+            color: #f90;
+            font-size: 20px;
+        }
+
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.7s ease-out;
+}
+
+.scroll-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+ footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 2px solid dodgerblue;
+      font-weight: bold;
+    }
+
+</style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-left">
+         <div class="txt">Saleem Jamali</div>
+         <ul class="nav-links">
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">Gallery</a></li>
+            <li> <a href="#">Our Services</a></li>
+            <li> <a href="#">About Us</a></li>
+         </ul>
+        </div>
+        <button class="contact-btn"><a href="#"> Download CV </a> </button>
+    </nav>
+
+
+
+    <div class="flex-container">
+      <div class="hero-left">
+        <br><h4 style="margin-top: 5px; margin-bottom: 5px; line-height: 30px; text-align: left;">
+            Hi, I am </h4> 
+        <h3 style="color:rgb(233, 223, 223); margin-bottom: 5px; text-align: left;">Mir Saleemullah Jamali</h3>
+        <p style="line-height: 20px; text-align: left; font-size:large; text-align: justify;">
+          <strong> Frontend and Wordpress Developer </strong>
+        </p>      
+        <div class="hero-btns">
+          <button>Download CV</button>
+          <button>View Services</button>
+        </div> <br>
+      </div>
+
+      <div class="hero-right">
+       
+        <img class="hero-img" src="mypic.jpeg" alt="My Picture"; style="border-radius: 35%">
+
+      </div>    
+    </div>
+
+
+<div class="flex-container2 scroll-reveal">
+      <div class="hero-ind2">
+      
+       <div class="heading-box">
+       <h4>About Me</h4>
+       <h3>My Intro</h3>
+       </div>
+
+        <p> I'm a passionate <strong>Frontend Developer</strong> and skilled <strong>Full Stack Developer</strong> 
+            with a strong focus on building responsive, <br> user-friendly web applications. 
+            I specialize in modern technologies like <strong>HTML, CSS, JavaScript, <br> React</strong> on the frontend, and <strong>Node.js, Express, MongoDB</strong> on the backend.
+        </p> <br>
+        <p> I love turning complex problems into simple, beautiful, and intuitive interfaces. <br>
+            Whether it's designing pixel-perfect UIs or building powerful APIs, <br>
+            I enjoy working across the full web development stack to deliver 
+            high-quality digital experiences.
+        </p>
+        </div>
+
+    </div>
+
+
+<div class="flex-container2 scroll-reveal">
+      <div class="hero-ind2">
+        <div class="heading-box">
+      <h4> WHAT I KNOW </h4>
+      <h3>My Skills  </h3>
+      </div>
+
+      <br>
+    <table align="center" style="width:100%; border-collapse: separate; border-spacing: 12px;">
+        <tr>
+            <td><center> <img src="python-1.png" style="width: 80px;height: 80px;"></center></td>
+            <td><center><img src="Cloud-computing.png" style="width: 80px;height: 80px;"></center></td>
+            <td><center><img src="graphic-design.png" style="width: 80px;height: 80px;"></center></td>
+            <td><center><img src="Digital-Marketing-1.png" style="width: 80px;height: 80px;"></center></td>
+            <td><center><img src="wordpress.png" style="width: 80px;height: 80px;"></center></td>
+            <td><center><img src="english.png" style="width: 80px;height: 80px;"></center></td>
+        </tr>
+        <tr>
+            <td class="txt" style="border-radius: 15px 50px;">Python Programming</td>
+            <td class="txt2" style="border-radius: 50px 15px;">Cloud Computing</td>
+            <td class="txt3" style="border-radius: 15px 50px;">Graphic Designing</td>
+            <td class="txt" style="border-radius: 50px 15px;">Digital Marketing</td>
+            <td class="txt2" style="border-radius: 15px 50px;">Web Designing</td>
+            <td class="txt3" style="border-radius: 50px 15px;">English Language</td>
+        </tr>
+        
+    </table>
+    <br>
+              
+    </div>
+
+    </div>
+
+<div class="flex-container2 scroll-reveal">
+      <div class="hero-ind2">
+      <div class="heading-box">
+      <h4> WHAT I DID </h4>
+      <h3>My Projects  </h3>
+      </div>
+       
+      <section id="projects">
+    <div class="projects-container">
+    <div class="project-card">
+      <img src="images/project1.jpg" alt="Project 1"; style="width: 200px;height: 150px;">
+      <h3>First Project</h3>
+      <p>This is a short description of my first project. This is a short description of my first project.</p>
+      <div class="project-buttons">
+        <a href="#" class="btn">Live Preview</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/project2.jpg" alt="Project 2"; style="width: 200px;height: 150px;">
+      <h3>Second Project</h3>
+      <p>This is a short description of my second project. The short description of my second project.</p>
+      <div class="project-buttons">
+        <a href="#" class="btn">Live Preview</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/project3.jpg" alt="Project 3"; style="width: 200px;height: 150px;">
+      <h3>Third Project</h3>
+      <p>This is a short description of my third project. This is a short description of my third project.</p>
+      <div class="project-buttons">
+        <a href="#" class="btn">Live Preview</a>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+</div>
+
+<div class="flex-container2 scroll-reveal">
+      <div class="hero-ind2">
+      <div class="heading-box">
+      <h4> WANT TO CONNECT </h4>
+      <h3>Contact Me  </h3>
+      </div>
+      
+      <form action="/action_page.php">
+    
+    <label class="label2" for="fname" >First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." style="width: 320px;">
+    
+    <label class="label2" for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." style="width: 320px;">
+    
+    <div class="input-group">
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" placeholder="Type Your Email Address..">
+    </div>
+    
+    <div class="input-group">
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="Type Subject..">
+    </div>
+
+    <div class="input-group">
+    <label for="msg">Message</label>
+    <textarea id="message" name="message" placeholder="Type here.." style="height:200px"></textarea>
+    </div>
+
+    <input type="submit" value=" ✉ Send Message">
+  </form>
+  </div>
+  </div>
+
+  <footer>
+    © 2025 Saleem Jamali. All rights reserved.
+  </footer>
+
+
+<script>
+  window.addEventListener("scroll", () => {
+    const reveals = document.querySelectorAll(".scroll-reveal");
+    reveals.forEach(el => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 100) {
+        el.classList.add("visible");
+      }
+    });
+  });
+</script>
+
+
+</body>
+</html>
