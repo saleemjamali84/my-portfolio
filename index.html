@@ -7,120 +7,8 @@
     <link rel="stylesheet" href="csssheet.css">
     
 <style>
-   .navbar{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: dodgerblue;
-            padding: 1.2rem;
-            color: orange;
-        }
-
-    .txt{
-            font-size: 1.2rem;
-            color: black;
-            font-weight: 600;
-        }
-    .txt:hover{
-            color: #f90;
-        }
-
-    .nav-left{
-            display: flex;
-            align-items: center;
-            gap: 2rem;
-        }
-
-    .nav-links{
-            display: flex;
-            list-style-type: none;
-            gap: 1rem;
-            padding: 0;
-            margin: 0;
-            
-        }
-
-    .nav-links a{
-            text-decoration: none;
-            color: white;
-        }
-
-        .nav-links a:hover{
-            color: white;
-            border-bottom: 3px solid #f90;
-            background-color: #f90;
-        }
 
 
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  /* background-color: #cca300; */
-  background: linear-gradient(to right, rgb(92, 90, 87), #031027);
-  margin-top: 20px;
-  margin-bottom: 20px;
- 
-}
-
-.flex-container > div {
-  
-  width: 600px;
-  margin: 30px;
-  text-align: center;
-  line-height: 30px;
-  font-size: 30px;
-}
-
-        /* Hero Section Style */
-.hero-sec{
-    display:flex ;
-    gap: 1rem;
-    margin: 1rem 1rem;
-    
-}
-
-.hero-left{
-    display:flex ;
-    flex-direction: column;
-    gap: 0px; 
-        
-}
-
-.hero-btns{
-    margin-top: 1rem;
-}
-
-.hero-btns button {
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: #ffffff;
-  border: none;
-  border-radius: 5px;
-  color: #4CAF50;
-  transition: 0.3s ease;
-}
-
-.hero-btns button:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-
-
-.hero-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-       
-}
-.hero-img{
-    width: 250px;
-    height: 250px;
-    border-radius: 10px;
-    
-}
 
 .hero-ind{
     display:flex ;
@@ -161,24 +49,7 @@
     padding: 0;
 }
 
-    .contact-btn{
-            background-color: seagreen;
-            color: #fff;
-            border: none;
-            padding: 0.5rem 1.5rem;
-            border-radius: 5px;
-            border: 2px solid orange;
-            cursor: pointer;
-        }
-        .contact-btn a{
-            color: #f90;
-        }
-
-        .contact-btn:hover{
-            background-color: #333;
-            border: 2px solid#f90;
-            color: #f90;
-        }
+    
 .section{
     
       text-align: center;
@@ -240,9 +111,10 @@
          <div class="txt">Saleem Jamali</div>
          <ul class="nav-links">
             <li> <a href="#">Home</a></li>
-            <li> <a href="#">Gallery</a></li>
-            <li> <a href="#">Our Services</a></li>
-            <li> <a href="#">About Us</a></li>
+            <li> <a href="skills.html">Skills</a></li>
+            <li> <a href="projects.html">Projects</a></li>
+            <li> <a href="about.html">About us</a></li>
+            <li> <a href="contact.html">Contact</a></li>
          </ul>
         </div>
         <button class="contact-btn"><a href="#"> Download CV </a> </button>
@@ -338,8 +210,9 @@
     <div class="projects-container">
     <div class="project-card">
       <img src="images/project1.jpg" alt="Project 1"; style="width: 200px;height: 150px;">
-      <h3>First Project</h3>
-      <p>This is a short description of my first project. This is a short description of my first project.</p>
+      <h3>Custom Portfolio Website</h3>
+      <p>Designed and developed a fully responsive personal portfolio website using HTML, CSS, and JavaScript. 
+        The site showcases skills, projects, and contact functionality with a clean, modern UI/UX.</p> 
       <div class="project-buttons">
         <a href="#" class="btn">Live Preview</a>
       </div>
@@ -347,8 +220,8 @@
 
     <div class="project-card">
       <img src="images/project2.jpg" alt="Project 2"; style="width: 200px;height: 150px;">
-      <h3>Second Project</h3>
-      <p>This is a short description of my second project. The short description of my second project.</p>
+      <h3>E-Commerce Store in WordPress (WooCommerce)</h3>
+      <p>Built a feature-rich e-commerce website using WordPress and WooCommerce. Included custom product pages, secure checkout, shipping integration.</p>
       <div class="project-buttons">
         <a href="#" class="btn">Live Preview</a>
       </div>
@@ -356,12 +229,24 @@
 
     <div class="project-card">
       <img src="images/project3.jpg" alt="Project 3"; style="width: 200px;height: 150px;">
-      <h3>Third Project</h3>
-      <p>This is a short description of my third project. This is a short description of my third project.</p>
+      <h3>Business Landing Page with Elementor</h3>
+      <p>Created a high-converting landing page for a startup using WordPress and Elementor. 
+        Focused on lead generation, mobile responsiveness, SEO opt.</p>
       <div class="project-buttons">
         <a href="#" class="btn">Live Preview</a>
       </div>
     </div>
+
+    <div class="project-card">
+      <img src="images/project1.jpg" alt="Project 1"; style="width: 200px;height: 150px;">
+      <h3>Event Management Website</h3>
+      <p>Developed a WordPress-based event management site featuring online registration, 
+        event calendar, ticketing system, and blog section for event updates.</p> <br> <br>
+      <div class="project-buttons">
+        <a href="#" class="btn">Live Preview</a>
+      </div>
+    </div>
+
   </div>
 </section>
 </div>
