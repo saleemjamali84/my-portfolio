@@ -1,3 +1,66 @@
+   .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: dodgerblue;
+            padding: 1.2rem;
+            color: orange;
+        }
+
+    .txt{
+            font-size: 1.2rem;
+            color: black;
+            font-weight: 600;
+        }
+    .txt:hover{
+            color: #f90;
+        }
+
+    .nav-left{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+    .nav-links{
+            display: flex;
+            list-style-type: none;
+            gap: 1rem;
+            padding: 0;
+            margin: 0;
+            
+        }
+
+    .nav-links a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav-links a:hover{
+            color: white;
+            border-bottom: 3px solid #f90;
+            background-color: #f90;
+        }
+
+.contact-btn{
+            background-color: seagreen;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            border-radius: 5px;
+            border: 2px solid orange;
+            cursor: pointer;
+        }
+        .contact-btn a{
+            color: #f90;
+        }
+
+        .contact-btn:hover{
+            background-color: #333;
+            border: 2px solid#f90;
+            color: #f90;
+        }
+
 td.txt {
     text-align: center;
     background-color: black;
@@ -18,7 +81,76 @@ td.txt3 {
 }
 
 
-    .flex-container2 {
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: #cca300; */
+  background: linear-gradient(to right, rgb(92, 90, 87), #031027);
+  margin-top: 20px;
+  margin-bottom: 20px;
+ 
+}
+
+.flex-container > div {
+  
+  width: 600px;
+  margin: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 30px;
+}
+
+        /* Hero Section Style */
+.hero-sec{
+    display:flex ;
+    gap: 1rem;
+    margin: 1rem 1rem;
+    
+}
+
+.hero-left{
+    display:flex ;
+    flex-direction: column;
+    gap: 0px; 
+        
+}
+
+.hero-btns{
+    margin-top: 1rem;
+}
+
+.hero-btns button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  color: #4CAF50;
+  transition: 0.3s ease;
+}
+
+.hero-btns button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       
+}
+.hero-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    
+}
+
+.flex-container2 {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -117,15 +249,15 @@ input[type=submit]:hover {
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  margin-top: 20px;
-}
+  margin-top: 0px;
+  }
 
 .project-card {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 12px;
-  width: 200px;
-  height: 320px;
+  width: 300px;
+  height: 350px;
   padding: 16px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
